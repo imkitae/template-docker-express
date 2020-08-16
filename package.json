@@ -1,5 +1,5 @@
 {
-  "name": "template-docker-nodejs",
+  "name": "template-docker-express",
   "private": true,
   "scripts": {
     "lint": "eslint 'src/**/*.{js,jsx}'",

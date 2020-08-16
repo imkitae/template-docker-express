@@ -2,7 +2,7 @@ version: "3.6"
 
 services:
   web:
-    image: template-docker-nodejs
+    image: template-docker-express
     build:
       context: .
       args:

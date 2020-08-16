@@ -1,9 +1,9 @@
-# template-docker-nodejs
+# template-docker-express
 
 ## To Install
 ```bash
-git clone git@githib.com:/imkitae/template-docker-nodejs.git
-cd template-docker-nodejs
+git clone git@githib.com:/imkitae/template-docker-express.git
+cd template-docker-express
 yarn install
 ```
 
