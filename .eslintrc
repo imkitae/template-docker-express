@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "airbnb",
+    "airbnb/hooks"
+  ],
+  "rules": {
+    "arrow-body-style": "off",
+    "import/prefer-default-export": "off",
+    "import/newline-after-import": ["error", { "count": 2 }],
+    "no-multiple-empty-lines": ["error", { "max": 2 }],
+    "max-len": ["warn", 120],
+    "no-console": "off",
+    "react/jsx-props-no-spreading": "off",
+    "semi": ["error", "never"]
+  }
+}

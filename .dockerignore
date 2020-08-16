@@ -1,0 +1,9 @@
+*
+!.eslintrc
+!babel.config.js
+!docker
+!package.json
+!src
+!yarn.lock
+!var/.gitignore
+!webpack.config.js

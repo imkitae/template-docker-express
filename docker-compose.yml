@@ -1,0 +1,26 @@
+version: "3.6"
+
+services:
+  web:
+    image: template-docker-nodejs
+    build:
+      context: .
+      args:
+        ENVIRONMENT: ${ENVIRONMENT}
+    ports:
+      - 8100:80
+    environment:
+      - ENVIRONMENT
+      - EXPRESS_PORT
+      - EXPRESS_WEBPACK_DEV
+      - DB_TYPE
+      - DB_HOST
+      - DB_USER
+      - DB_PASSWORD
+      - DB_DBNAME
+      - AUTH_VALUE_1
+      - AUTH_VALUE_2
+    volumes:
+      - ./src:/app/src
+      - ./var:/app/var
+      - ./docker/nginx/conf.d/default.conf.tmpl:/etc/nginx/conf.d/default.conf.tmpl

@@ -1,0 +1,5 @@
+*.log
+.env
+.terraform
+dist
+node_modules
