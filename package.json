@@ -12,7 +12,7 @@
     "start:watch": "nodemon -w src/server"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.28.0",
     "body-parser": "^1.19.0",
     "connect-history-api-fallback": "^1.6.0",
     "cookie-parser": "^1.4.4",
@@ -24,10 +24,10 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
-    "sequelize": "^5.21.5",
+    "sequelize": "^6.29.0",
     "sqlite3": "^4.1.1",
     "webpack": "^4.42.0",
-    "webpack-dev-middleware": "^3.7.2",
+    "webpack-dev-middleware": "^5.3.4",
     "webpack-hot-middleware": "^2.25.0"
   },
   "devDependencies": {
